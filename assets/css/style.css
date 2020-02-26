@@ -1,0 +1,125 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    .body_container {
+        margin: 0 20px;
+    }
+    
+    .topbar {
+        width: 100%;
+    }
+    
+    .image img {
+        padding-top: 34px;
+    }
+    
+    .row {
+        padding: 0 20px;
+    }
+    
+    .heade-panier {
+        justify-content: flex-end;
+    }
+    
+    ul.panier {
+        float: left;
+        width: 261px;
+        margin-left: 397px;
+    }
+    
+    #header div.menu ul.panier li.caddie {
+        float: left;
+    }
+    
+    li {
+        list-style-type: none;
+    }
+    
+    li.caddie {
+        float: left;
+    }
+    
+    ul.panier li.caddie a {
+        background: url("../img/caddie.png") no-repeat;
+        width: 31px;
+        height: 27px;
+        display: block;
+        text-indent: -9898px;
+        line-height: 72px;
+        margin-top: 20px;
+        margin-left: 18px;
+    }
+    
+    ul.panier li.items {
+        float: left;
+        height: 72px;
+        line-height: 30px;
+        margin-left: 12px;
+        font-family: 'Helvetica';
+        font-size: 11px;
+        color: #aad56b;
+        text-align: center;
+        width: 65px;
+        display: block;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+    }
+    
+    ul.panier li.items span {
+        display: block;
+        margin-top: 5px;
+        font-size: 18px;
+        color: #aad56b;
+        font-weight: bold;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+    }
+    
+    ul.panier li.total {
+        float: left;
+        height: 72px;
+        line-height: 30px;
+        margin-left: 10px;
+        font-family: 'Helvetica';
+        font-size: 11px;
+        color: #aad56b;
+        text-align: center;
+        width: 110px;
+        display: block;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+    }
+    
+    ul.panier li.total>span {
+        display: block;
+        margin-top: 5px;
+        font-size: 18px;
+        color: #aad56b;
+        font-weight: bold;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+    }
+    
+    .btn-success {
+        background-color: #aad56b;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+    }
+    
+    .list-group-item-success {
+        background-color: #aad56b;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+    }
+    
+    @media (max-width: 800px) {
+        .col-6 {
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+        ul.panier {
+            margin-left: 0;
+            width: auto;
+        }
+        ul.panier li.total {
+            width: 60px;
+            margin-right: 10px;
+        }
+    }
